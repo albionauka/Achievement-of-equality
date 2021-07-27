@@ -24,9 +24,10 @@ h6{
   text-align: center;
 }
 
-div form img{
+div form i{
   align-self: center;
  margin-bottom: 10px;
+ width: 30px;
 }
 
 div form label{
