@@ -2,3 +2,58 @@
   margin: 0;
   padding: 0;
 }
+html{
+  height: 100%;
+}
+
+body{
+  background-color: #798094;
+  height: 100%;
+}
+
+.form-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  align-items:center ;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+h6{
+  font-size: 15px;
+  text-align: center;
+}
+
+div form i{
+  align-self: center;
+ margin-bottom: 10px;
+ width: 30px;
+}
+
+div form label{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 7px;
+}
+
+div form label input{
+border: none;
+border-bottom: 1px solid black;
+background-color: transparent;
+}
+
+.signin-btn{
+color: tomato;
+text-align: center;
+}
+
+.signup-btn{
+  margin-top: 7px;
+
+}
+
