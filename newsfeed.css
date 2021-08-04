@@ -1,0 +1,50 @@
+table {
+    border-spacing: 2px 15px;
+    display: flex;
+
+}
+table tr td {
+   background-color: #89B0AE;
+   padding: 5px;
+   border-radius: 11px;
+}
+body{
+    background-color: #798094;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.back-btn{
+    background-color: #89B0AE;
+    height: 22px;
+    border: none;
+
+}
+.comment{
+    background-color: #89B0AE;
+    width: 39em;
+    height: 3em;
+    border: none;
+    border-radius: 11px;
+}
+
+.comment-container{
+display: flex;
+align-items: center;
+margin-left: 44px;
+}
+.img1{
+    margin-right: 4px;
+}
+
+.table-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+/*make input div into a table for styling*/
