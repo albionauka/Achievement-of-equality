@@ -5,3 +5,7 @@
 .signin-container {
   display: flex;
 }
+.form-border {
+  border: solid 6px #f2e9e4;
+  padding: 60px;
+}
