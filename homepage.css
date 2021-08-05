@@ -56,12 +56,15 @@ section {
   background-color: aliceblue;
 }
 .text-section {
+  display: flex;
+  align-items: center;
   position: relative;
   top: 0;
   left: 0;
   width: 600px;
   height: 400px;
   background-color: #89b0ae;
+
 }
 .game-section {
   position: absolute;
@@ -77,6 +80,7 @@ section {
 .text-game {
   font-family: "Merriweather", sans-serif;
   padding: 40px;
+  width: 430px;
 }
 footer {
   padding: 1em;
