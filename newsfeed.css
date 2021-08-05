@@ -8,6 +8,8 @@ table tr td {
   border-radius: 11px;
 }
 body {
+  margin: 0;
+  padding: 0;
   background-color: #4a4e69;
 }
 
@@ -25,7 +27,7 @@ h1 {
   color: #f2e9e4;
 }
 nav {
-  background-color: #4a4e69;
+  background-color: #22223b;
   display: grid;
   grid-template-columns: 4fr 1fr;
   height: 12%;
