@@ -60,11 +60,14 @@ section {
   background-color: aliceblue;
 }
 .text-section {
+  display: flex;
+  align-items: center;
   position: relative;
   top: 0;
   left: 0;
   width: 600px;
   height: 400px;
+
   background-color: #4a4e69;
 }
 .game-section {
@@ -81,6 +84,7 @@ section {
 .text-game {
   font-family: "Merriweather", sans-serif;
   padding: 40px;
+
   color: #f2e9e4;
 }
 footer {
