@@ -11,13 +11,13 @@ body {
   height: 100%;
 }
 nav {
-  background-color: #555b6e;
+  background-color: #22223b;
   display: grid;
   grid-template-columns: 4fr 1fr;
   height: 12%;
 }
 h1 {
-  color: azure;
+  color: #f2e9e4;
   font-family: "Merriweather", sans-serif;
   text-decoration: none;
 }
@@ -63,7 +63,7 @@ h1 {
   position: absolute;
   left: 3%;
   bottom: 30%;
-  color: #e7e7e7;
+  color: #f2e9e4;
   font-size: 25px;
   font-family: "Merriweather", sans-serif;
 }
@@ -86,14 +86,14 @@ h1 {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .quote {
-  background-color: aliceblue;
+  background-color: #f2e9e4;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 50px;
   font-family: "Merriweather", sans-serif;
-  color: #555b6e;
+  color: #4a4e69;
 }
 /*container css*/
 .middle {
@@ -122,7 +122,7 @@ h1 {
 .cards {
   display: flex;
   justify-content: space-around;
-  background-color: #e8ebea;
+  background-color: #f2e9e4;
 }
 #message-pic {
   width: 290px;
