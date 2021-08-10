@@ -17,12 +17,14 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 /*.back-btn{
     background-color: #89B0AE;
     height: 22px;
     border: none;
 
 }*/
+
 h1 {
   color: #f2e9e4;
 }
@@ -74,11 +76,11 @@ nav {
 .img1 {
   margin-right: 4px;
 }
-
 .table-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 /*make input div into a table for styling*/

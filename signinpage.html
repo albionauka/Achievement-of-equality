@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title> SignIn Page!</title>   
-    <link rel="stylesheet" href="signuppage.css">
-    <script src="https://kit.fontawesome.com/3dd4d3e2df.js" crossorigin="anonymous"></script>
-</head>    
-<body>
-    <nav>
-        <img src="img/AOE.jpg" width="60px">
-        <h1>Achievement of Equality</h1>
-    </nav>
-<div class="form-container">
-    <div class="form-border">
-    <form class="form">
-        <i  class="fas fa-user-alt fa-2x"></i>
-        <label> <input type='text' pattern="[a-zA-Z0-9\.\]"> Email </label>
-        <label> <input type='password'> Password </label>
-        <a href="homepage.html" class="signin-btn">SignIn</a>
-    </form>
-    </div>
-</div>
-</body>
-</html> 
+
+    <head>
+        <title> SignIn Page!</title>
+        <link rel="stylesheet" href="signuppage.css">
+        <script src="https://kit.fontawesome.com/3dd4d3e2df.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <nav>
+            <img src="img/AOE.jpg" width="60px">
+            <h1>Achievement of Equality</h1>
+        </nav>
+        <div class="form-container">
+            <div class="form-border">
+                <form class="form" id="form-signin">
+                    <i class="fas fa-user-alt fa-2x"></i>
+                    <label> <input type='text'> Email </label>
+                    <label> <input type='password'> Password </label>
+                    <a href="#" id="sign-in" class="signin-btn">SignIn</a>
+                </form>
+            </div>
+        </div>
+        <script src="signin.js"></script>
+    </body>
+</html>
