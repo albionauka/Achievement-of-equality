@@ -49,6 +49,7 @@ a {
   font-family: "Merriweather", sans-serif;
 }
 .text-container {
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,6 +57,7 @@ a {
   padding: 50px;
   font-family: "Merriweather", sans-serif;
   background-color: #f2e9e4;
+
 }
 section {
   background-color: aliceblue;
@@ -113,6 +115,7 @@ grid-template-rows: auto auto;
 .title{
   padding: 10px 30px 0 30px;
   color: #f2e9e4;
+  font-size: 1.5rem;
 }
 .title-into{
 text-align: center;
