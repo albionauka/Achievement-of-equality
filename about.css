@@ -10,17 +10,26 @@ html {
 body {
   height: 100%;
 }
+
 nav {
   background-color: #22223b;
   display: grid;
   grid-template-columns: 4fr 1fr;
-  height: 12%;
+  height: 67px;
 }
+
 h1 {
   color: #f2e9e4;
   font-family: "Merriweather", sans-serif;
   text-decoration: none;
 }
+
+.h1-title{
+  top: 79%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
 .button {
   width: 100%;
   display: flex;
